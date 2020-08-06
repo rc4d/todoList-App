@@ -48,8 +48,8 @@
   }
   
   .container {
-    background-color: #eee;
-    border-radius: 5%;
+    background-color: rgb(26 223 179 / 71%);
+    border-radius: 2%;
     width: 60%;
     margin: 0 auto;
     box-shadow: -1px -1px 6px 8px #888888;
@@ -71,6 +71,7 @@
   
   .col-1-of-1 {
     width: 100%;
+    background-color: #eeeeee;
   }
   
   select{
@@ -83,11 +84,11 @@
   
   button {
     display: inline-block;
-    border-radius: 10px;
-    border: 4px double #cccccc;
+    border-radius: 30px;
+    border: 0px double #cccccc;
     color: #eeeeee;
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
     padding: 20px;
     width: 200px;
     -webkit-transition: all 0.5s;
@@ -98,12 +99,13 @@
     margin: 5px;
   }
   
+  
   button:nth-of-type(1){
-    background-color: grey;
+    background-color: green;
   }
   
   button:nth-of-type(1):hover{
-    background-color: black;
+    background-color: rgb(4, 16, 68);
   }
   
   button:nth-of-type(2){
@@ -119,11 +121,11 @@
   }
   
   [class^="col-"]:hover {
-    background-color:blue;
+    background-color:rgba(170, 218, 194, 0.856);
   }
   
   li {
-    padding: 20px;
+    padding: 6px;
     font-size: 1rem;
     position: relative;
     border-top: 1px solid gray;
@@ -165,6 +167,9 @@
   }
   
   .todo__category-school {
+    background-color: red;
+  }
+   .todo__category-home {
     background-color: red;
   }
   
